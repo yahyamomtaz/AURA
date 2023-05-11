@@ -27,6 +27,11 @@ struct AreaDetailsView: View {
                     .frame(height: 1.5)
                     .background(AppColors.darkblue)
                     
+                HStack {
+                    Button("pm2.5") {}
+                    Button("pm10") {}
+                    Button("o3") {}
+                }
             }
         }
     }
