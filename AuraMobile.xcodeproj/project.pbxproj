@@ -14,6 +14,10 @@
 		78561E9C2A0BAC15000AA43E /* AuraMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78561E9B2A0BAC15000AA43E /* AuraMobileTests.swift */; };
 		78561EA62A0BAC15000AA43E /* AuraMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78561EA52A0BAC15000AA43E /* AuraMobileUITests.swift */; };
 		78561EA82A0BAC15000AA43E /* AuraMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78561EA72A0BAC15000AA43E /* AuraMobileUITestsLaunchTests.swift */; };
+		789F14652A0D0D6C004236EC /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F14642A0D0D6C004236EC /* DashboardView.swift */; };
+		789F14672A0D0E43004236EC /* ManufattoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F14662A0D0E43004236EC /* ManufattoView.swift */; };
+		789F14692A0D0F3A004236EC /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F14682A0D0F3A004236EC /* AppColors.swift */; };
+		789F146D2A0D176D004236EC /* AreaDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F146C2A0D176D004236EC /* AreaDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		78561EA12A0BAC15000AA43E /* AuraMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuraMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78561EA52A0BAC15000AA43E /* AuraMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraMobileUITests.swift; sourceTree = "<group>"; };
 		78561EA72A0BAC15000AA43E /* AuraMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		789F14642A0D0D6C004236EC /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		789F14662A0D0E43004236EC /* ManufattoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufattoView.swift; sourceTree = "<group>"; };
+		789F14682A0D0F3A004236EC /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		789F146C2A0D176D004236EC /* AreaDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,9 @@
 		78561E892A0BAC15000AA43E /* AuraMobile */ = {
 			isa = PBXGroup;
 			children = (
+				789F14612A0D0C92004236EC /* ViewModels */,
+				789F14602A0D0C8C004236EC /* Views */,
+				789F145F2A0D0C83004236EC /* Models */,
 				78561E8A2A0BAC15000AA43E /* AuraMobileApp.swift */,
 				78561E8C2A0BAC15000AA43E /* ContentView.swift */,
 				78561E8E2A0BAC15000AA43E /* Assets.xcassets */,
@@ -125,6 +136,31 @@
 				78561EA72A0BAC15000AA43E /* AuraMobileUITestsLaunchTests.swift */,
 			);
 			path = AuraMobileUITests;
+			sourceTree = "<group>";
+		};
+		789F145F2A0D0C83004236EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				789F14682A0D0F3A004236EC /* AppColors.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		789F14602A0D0C8C004236EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				789F14642A0D0D6C004236EC /* DashboardView.swift */,
+				789F14662A0D0E43004236EC /* ManufattoView.swift */,
+				789F146C2A0D176D004236EC /* AreaDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		789F14612A0D0C92004236EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789F14672A0D0E43004236EC /* ManufattoView.swift in Sources */,
 				78561E8D2A0BAC15000AA43E /* ContentView.swift in Sources */,
+				789F146D2A0D176D004236EC /* AreaDetailsView.swift in Sources */,
+				789F14652A0D0D6C004236EC /* DashboardView.swift in Sources */,
+				789F14692A0D0F3A004236EC /* AppColors.swift in Sources */,
 				78561E8B2A0BAC15000AA43E /* AuraMobileApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
