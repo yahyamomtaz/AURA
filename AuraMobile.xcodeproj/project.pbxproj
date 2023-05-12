@@ -19,6 +19,7 @@
 		789F14692A0D0F3A004236EC /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F14682A0D0F3A004236EC /* AppColors.swift */; };
 		789F146D2A0D176D004236EC /* AreaDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F146C2A0D176D004236EC /* AreaDetailsView.swift */; };
 		789F146F2A0D2E8F004236EC /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F146E2A0D2E8F004236EC /* Buttons.swift */; };
+		78AFF6CD2A0E75700067AF2C /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AFF6CC2A0E75700067AF2C /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		789F14682A0D0F3A004236EC /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		789F146C2A0D176D004236EC /* AreaDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDetailsView.swift; sourceTree = "<group>"; };
 		789F146E2A0D2E8F004236EC /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		78AFF6CC2A0E75700067AF2C /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				789F14642A0D0D6C004236EC /* DashboardView.swift */,
 				789F14662A0D0E43004236EC /* ManufattoView.swift */,
 				789F146C2A0D176D004236EC /* AreaDetailsView.swift */,
+				78AFF6CC2A0E75700067AF2C /* ButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			files = (
 				789F146F2A0D2E8F004236EC /* Buttons.swift in Sources */,
 				789F14672A0D0E43004236EC /* ManufattoView.swift in Sources */,
+				78AFF6CD2A0E75700067AF2C /* ButtonView.swift in Sources */,
 				78561E8D2A0BAC15000AA43E /* ContentView.swift in Sources */,
 				789F146D2A0D176D004236EC /* AreaDetailsView.swift in Sources */,
 				789F14652A0D0D6C004236EC /* DashboardView.swift in Sources */,

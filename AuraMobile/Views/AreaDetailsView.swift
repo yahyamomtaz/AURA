@@ -28,7 +28,8 @@ struct AreaDetailsView: View {
                     .background(AppColors.darkblue)
                     
                 HStack {
-                    Button("pm2.5") {}
+                    ButtonView(ButtonText: "PM2.5", BUttonImage: "pm2.5")
+
                     Button("pm10") {}
                     Button("o3") {}
                 }
