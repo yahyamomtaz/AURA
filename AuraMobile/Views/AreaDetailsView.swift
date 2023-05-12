@@ -10,6 +10,7 @@ import SwiftUI
 struct AreaDetailsView: View {
     var body: some View {
         ZStack{
+            AppColors.main.ignoresSafeArea()
             VStack{
                 HStack(alignment: .bottom) {
                     VStack(alignment: .leading){
@@ -28,10 +29,20 @@ struct AreaDetailsView: View {
                     .background(AppColors.darkblue)
                     
                 HStack {
-                    ButtonView(ButtonText: "PM2.5", BUttonImage: "pm2.5")
-
-                    Button("pm10") {}
-                    Button("o3") {}
+                    ButtonView(ButtonText: "PM2.5", ButtonImage: "pm2.5", ButtonDetail: "15 µg/m³")
+                    
+                    ButtonView(ButtonText: "PM10", ButtonImage: "pm10", ButtonDetail: "20 µg/m³")
+                    
+                    ButtonView(ButtonText: "O₃", ButtonImage: "o3", ButtonDetail: "10 ppb")
+    
+                }
+                HStack {
+                    ButtonView(ButtonText: "NO₂", ButtonImage: "NO2", ButtonDetail: "9 ppb")
+                    
+                    ButtonView(ButtonText: "Temp.", ButtonImage: "temp", ButtonDetail: "14 °C")
+                    
+                    ButtonView(ButtonText: "Umidità", ButtonImage: "umidita", ButtonDetail: "78 %")
+    
                 }
             }
         }

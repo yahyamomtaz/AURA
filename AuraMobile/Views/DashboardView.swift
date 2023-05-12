@@ -18,6 +18,13 @@ struct DashboardView: View {
                         .frame(width: 310, height: 312)
                         .shadow(radius: 30)
                 }
+                .padding()
+        
+                AreaDetailsView()
+                    .cornerRadius(16)
+                    .shadow(radius: 30)
+                    .frame(width: 372, height: 312)
+                
             }
         }
     }
