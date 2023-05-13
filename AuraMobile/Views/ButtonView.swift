@@ -19,8 +19,6 @@ struct ButtonView: View {
                 HStack {
                     Image(ButtonImage)
                         .resizable()
-                        .scaledToFit()
-                        .aspectRatio(contentMode: .fit)
                         .frame(width: 20)
                     Text(ButtonText)
                         .foregroundColor(AppColors.darkblue)
@@ -31,8 +29,10 @@ struct ButtonView: View {
             }
             .padding()
         }
-        .border(AppColors.darkblue, width: 1)
-        .cornerRadius(3)
+        .background(RoundedRectangle(cornerRadius: 8).stroke(AppColors.darkblue))
+        .frame(width: 120, height: 76)
+        
+        
         
         
 
