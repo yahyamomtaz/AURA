@@ -23,15 +23,16 @@ struct ButtonView: View {
                     Text(ButtonText)
                         .foregroundColor(AppColors.darkblue)
                 }
+                .frame(maxWidth: .infinity)
                 Text(ButtonDetail)
-                    .fontWeight(.black)
+                    .fontWeight(.bold)
                     .foregroundColor(AppColors.darkblue)
             }
-            .padding()
+            .padding(.vertical, 15.0)
         }
         .background(RoundedRectangle(cornerRadius: 8).stroke(AppColors.darkblue))
-        .frame(width: 120, height: 76)
-        
+        .frame(height: 76)
+        .frame(maxWidth: .infinity)
         
         
         

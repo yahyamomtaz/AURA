@@ -36,6 +36,9 @@ struct AreaDetailsView: View {
                     ButtonView(ButtonText: "O₃", ButtonImage: "o3", ButtonDetail: "10 ppb")
     
                 }
+                .frame(maxWidth: .infinity)
+                .padding(.horizontal)
+                
                 HStack {
                     ButtonView(ButtonText: "NO₂", ButtonImage: "NO2", ButtonDetail: "9 ppb")
                     
@@ -44,6 +47,9 @@ struct AreaDetailsView: View {
                     ButtonView(ButtonText: "Umidità", ButtonImage: "umidita", ButtonDetail: "78 %")
     
                 }
+                .frame(maxWidth: .infinity)
+                .padding(.horizontal)
+                
             }
         }
     }

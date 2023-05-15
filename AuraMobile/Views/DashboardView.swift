@@ -23,7 +23,8 @@ struct DashboardView: View {
                 AreaDetailsView()
                     .cornerRadius(16)
                     .shadow(radius: 30)
-                    .frame(width: 372, height: 312)
+                    .frame(height: 312)
+                    .frame(maxWidth: .infinity)
                 
             }
         }
