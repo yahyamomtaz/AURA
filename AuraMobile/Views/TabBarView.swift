@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct TabBarView: View {
+    
+    init() {
+        UITabBar.appearance().backgroundColor = UIColor.systemGray6
+    }
+    
     var body: some View {
         TabView {
             DashboardView()
                 .tabItem {
                     Label("Dashboard", systemImage: "slider.vertical.3")
             }
+            
+            MapView()
+                .tabItem {
+                    Label("Network", systemImage: "globe")
+                }
         }
+        .accentColor(AppColors.darkblue)
     }
 }
 

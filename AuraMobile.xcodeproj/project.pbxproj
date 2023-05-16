@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		783C47CB2A13C54900B9A7A7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783C47CA2A13C54900B9A7A7 /* TabBarView.swift */; };
+		783C47CD2A13C69400B9A7A7 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783C47CC2A13C69400B9A7A7 /* MapViewModel.swift */; };
+		783C47CF2A13C6CA00B9A7A7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783C47CE2A13C6CA00B9A7A7 /* MapView.swift */; };
 		78561E8B2A0BAC15000AA43E /* AuraMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78561E8A2A0BAC15000AA43E /* AuraMobileApp.swift */; };
 		78561E8D2A0BAC15000AA43E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78561E8C2A0BAC15000AA43E /* ContentView.swift */; };
 		78561E8F2A0BAC15000AA43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78561E8E2A0BAC15000AA43E /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		783C47CA2A13C54900B9A7A7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		783C47CC2A13C69400B9A7A7 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		783C47CE2A13C6CA00B9A7A7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		78561E872A0BAC15000AA43E /* AuraMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuraMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78561E8A2A0BAC15000AA43E /* AuraMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraMobileApp.swift; sourceTree = "<group>"; };
 		78561E8C2A0BAC15000AA43E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -158,6 +162,7 @@
 				789F14662A0D0E43004236EC /* ManufattoView.swift */,
 				789F146C2A0D176D004236EC /* AreaDetailsView.swift */,
 				78AFF6CC2A0E75700067AF2C /* ButtonView.swift */,
+				783C47CE2A13C6CA00B9A7A7 /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 		789F14612A0D0C92004236EC /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				783C47CC2A13C69400B9A7A7 /* MapViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -306,7 +312,9 @@
 				789F146D2A0D176D004236EC /* AreaDetailsView.swift in Sources */,
 				789F14652A0D0D6C004236EC /* DashboardView.swift in Sources */,
 				789F14692A0D0F3A004236EC /* AppColors.swift in Sources */,
+				783C47CF2A13C6CA00B9A7A7 /* MapView.swift in Sources */,
 				78561E8B2A0BAC15000AA43E /* AuraMobileApp.swift in Sources */,
+				783C47CD2A13C69400B9A7A7 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
