@@ -17,6 +17,7 @@ struct AreaDetailsView: View {
                         Text("QUALITÀ DELL’ARIA")
                             .foregroundColor(AppColors.darkblue)
                             .fontWeight(.bold)
+                            //.font(.system(size: 14))
                         Text("ID Manufatto")
                             .foregroundColor(AppColors.darkblue)
                     }

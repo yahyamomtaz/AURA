@@ -10,21 +10,21 @@ import SwiftUI
 struct DashboardView: View {
     var body: some View {
         ZStack{
-            AppColors.main.ignoresSafeArea()
+            AppColors.background.ignoresSafeArea()
             VStack{
                 HStack{
                     ManufattoView()
                         .cornerRadius(16)
                         .frame(width: 310, height: 312)
-                        .shadow(radius: 30)
+                        //.shadow(color:, radius: 30)
                 }
                 .padding()
         
                 AreaDetailsView()
-                    .cornerRadius(16)
-                    .shadow(radius: 30)
-                    .frame(height: 312)
-                    .frame(maxWidth: .infinity)
+                    //.cornerRadius(16)
+                    //.shadow(radius: 30)
+                    //.frame(width: 310,height: 312)
+                    //.frame(maxWidth: .infinity)
                 
             }
         }
