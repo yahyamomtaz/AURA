@@ -14,18 +14,14 @@ struct DashboardView: View {
             VStack{
                 HStack{
                     ManufattoView()
-                        .cornerRadius(16)
-                        .frame(width: 310, height: 312)
-                        //.shadow(color:, radius: 30)
+                        .clipShape(RoundedRectangle(cornerRadius: 16, style:.continuous))
+                        .shadow(color: Color.gray.opacity(0.2), radius:10, x:0, y:5)
                 }
                 .padding()
         
                 AreaDetailsView()
-                    //.cornerRadius(16)
-                    //.shadow(radius: 30)
-                    //.frame(width: 310,height: 312)
-                    //.frame(maxWidth: .infinity)
-                
+                    .clipShape(RoundedRectangle(cornerRadius: 16, style:.continuous))
+                    .shadow(color: Color.gray.opacity(0.2), radius:10, x:0, y:5)
             }
         }
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7802DCA02A15118A0076238D /* PurifyingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802DC9F2A15118A0076238D /* PurifyingView.swift */; };
 		783C47CB2A13C54900B9A7A7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783C47CA2A13C54900B9A7A7 /* TabBarView.swift */; };
 		783C47CD2A13C69400B9A7A7 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783C47CC2A13C69400B9A7A7 /* MapViewModel.swift */; };
 		783C47CF2A13C6CA00B9A7A7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783C47CE2A13C6CA00B9A7A7 /* MapView.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7802DC9F2A15118A0076238D /* PurifyingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurifyingView.swift; sourceTree = "<group>"; };
 		783C47CA2A13C54900B9A7A7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		783C47CC2A13C69400B9A7A7 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		783C47CE2A13C6CA00B9A7A7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				789F146C2A0D176D004236EC /* AreaDetailsView.swift */,
 				78AFF6CC2A0E75700067AF2C /* ButtonView.swift */,
 				783C47CE2A13C6CA00B9A7A7 /* MapView.swift */,
+				7802DC9F2A15118A0076238D /* PurifyingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				789F14652A0D0D6C004236EC /* DashboardView.swift in Sources */,
 				789F14692A0D0F3A004236EC /* AppColors.swift in Sources */,
 				783C47CF2A13C6CA00B9A7A7 /* MapView.swift in Sources */,
+				7802DCA02A15118A0076238D /* PurifyingView.swift in Sources */,
 				78561E8B2A0BAC15000AA43E /* AuraMobileApp.swift in Sources */,
 				783C47CD2A13C69400B9A7A7 /* MapViewModel.swift in Sources */,
 			);
