@@ -33,7 +33,7 @@ struct PurifyingMainCardView: View {
                         .overlay(AppColors.darkblue)
                     HStack{
                         Image(systemName: "globe")
-                        Text("Aromatica")
+                        Text("Aromatic")
                     }
                     Divider()
                         .frame(width: 150,height: 1.5)

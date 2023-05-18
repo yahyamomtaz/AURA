@@ -33,10 +33,6 @@ struct ButtonView: View {
         .background(RoundedRectangle(cornerRadius: 8).stroke(AppColors.darkblue))
         .frame(height: 76)
         .frame(maxWidth: .infinity)
-        
-        
-        
-
     }
 }
 

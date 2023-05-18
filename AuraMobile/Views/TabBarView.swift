@@ -24,6 +24,11 @@ struct TabBarView: View {
                 .tabItem {
                     Label("Network", systemImage: "globe")
                 }
+            
+            PurifyingView()
+                .tabItem{
+                    Label("Purifying", systemImage: "rays")
+                }
         }
         .accentColor(AppColors.darkblue)
     }

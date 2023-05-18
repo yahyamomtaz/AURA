@@ -19,6 +19,8 @@
 		78561E9C2A0BAC15000AA43E /* AuraMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78561E9B2A0BAC15000AA43E /* AuraMobileTests.swift */; };
 		78561EA62A0BAC15000AA43E /* AuraMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78561EA52A0BAC15000AA43E /* AuraMobileUITests.swift */; };
 		78561EA82A0BAC15000AA43E /* AuraMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78561EA72A0BAC15000AA43E /* AuraMobileUITestsLaunchTests.swift */; };
+		786C17E62A161F6300A65CAE /* PurifyingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786C17E52A161F6300A65CAE /* PurifyingButtonView.swift */; };
+		786C17E82A16244800A65CAE /* PurifyingSecondCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786C17E72A16244800A65CAE /* PurifyingSecondCardView.swift */; };
 		789F14652A0D0D6C004236EC /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F14642A0D0D6C004236EC /* DashboardView.swift */; };
 		789F14672A0D0E43004236EC /* ManufattoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F14662A0D0E43004236EC /* ManufattoView.swift */; };
 		789F14692A0D0F3A004236EC /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F14682A0D0F3A004236EC /* AppColors.swift */; };
@@ -59,6 +61,8 @@
 		78561EA12A0BAC15000AA43E /* AuraMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuraMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78561EA52A0BAC15000AA43E /* AuraMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraMobileUITests.swift; sourceTree = "<group>"; };
 		78561EA72A0BAC15000AA43E /* AuraMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		786C17E52A161F6300A65CAE /* PurifyingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurifyingButtonView.swift; sourceTree = "<group>"; };
+		786C17E72A16244800A65CAE /* PurifyingSecondCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurifyingSecondCardView.swift; sourceTree = "<group>"; };
 		789F14642A0D0D6C004236EC /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		789F14662A0D0E43004236EC /* ManufattoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufattoView.swift; sourceTree = "<group>"; };
 		789F14682A0D0F3A004236EC /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
@@ -168,7 +172,9 @@
 				78AFF6CC2A0E75700067AF2C /* ButtonView.swift */,
 				783C47CE2A13C6CA00B9A7A7 /* MapView.swift */,
 				7802DC9F2A15118A0076238D /* PurifyingView.swift */,
+				786C17E72A16244800A65CAE /* PurifyingSecondCardView.swift */,
 				7802DCA12A151DCF0076238D /* PurifyingMainCardView.swift */,
+				786C17E52A161F6300A65CAE /* PurifyingButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -319,9 +325,11 @@
 				789F146D2A0D176D004236EC /* AreaDetailsView.swift in Sources */,
 				789F14652A0D0D6C004236EC /* DashboardView.swift in Sources */,
 				789F14692A0D0F3A004236EC /* AppColors.swift in Sources */,
+				786C17E62A161F6300A65CAE /* PurifyingButtonView.swift in Sources */,
 				783C47CF2A13C6CA00B9A7A7 /* MapView.swift in Sources */,
 				7802DCA02A15118A0076238D /* PurifyingView.swift in Sources */,
 				78561E8B2A0BAC15000AA43E /* AuraMobileApp.swift in Sources */,
+				786C17E82A16244800A65CAE /* PurifyingSecondCardView.swift in Sources */,
 				783C47CD2A13C69400B9A7A7 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
