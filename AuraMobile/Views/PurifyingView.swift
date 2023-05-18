@@ -18,7 +18,7 @@ struct PurifyingView: View {
                 .clipShape(RoundedRectangle(cornerRadius: 16, style:.continuous))
                 .shadow(color: Color.gray.opacity(0.2), radius:10, x:0, y:5)
             
-            PurifyingMainCardView()
+            PurifyingThirdCardView()
                 .clipShape(RoundedRectangle(cornerRadius: 16, style:.continuous))
                 .shadow(color: Color.gray.opacity(0.2), radius:10, x:0, y:5)
         }

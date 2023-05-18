@@ -9,8 +9,6 @@ import SwiftUI
 
 struct AreaDetailsView: View {
     var body: some View {
-        ZStack{
-            AppColors.main.ignoresSafeArea()
             VStack{
                 HStack(alignment: .bottom) {
                     VStack(alignment: .leading){
@@ -52,7 +50,8 @@ struct AreaDetailsView: View {
                 .padding(.horizontal)
                 
             }
-        }
+            .background(AppColors.main.ignoresSafeArea())
+            .padding()
     }
 }
 
