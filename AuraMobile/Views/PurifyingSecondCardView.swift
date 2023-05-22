@@ -9,13 +9,15 @@ import SwiftUI
 
 struct PurifyingSecondCardView: View {
     var body: some View {
-        ZStack{
-            AppColors.main.ignoresSafeArea()
             VStack{
                 
-                Text("Fitobanca AURA")
-                    .fontWeight(.bold)
-                Text("Specie Vegetali Certificate")
+                VStack(alignment: .leading){
+                    Text("Fitobanca AURA")
+                        .fontWeight(.bold)
+                    Text("Specie Vegetali Certificate")
+                }
+                .padding()
+                
                 
                 Divider()
                     .frame(height: 1.5)
@@ -29,11 +31,11 @@ struct PurifyingSecondCardView: View {
                     PurifyingButtonView(ButtonText: "Thymus", ButtonImage: "pm2.5", ButtonDetail: "Lavandula")
                 }
                 .frame(maxWidth: .infinity)
-                .padding(.horizontal)
+                .padding()
             }
+            .background(AppColors.main)
             .foregroundColor(AppColors.darkblue)
         }
-    }
 }
 
 struct PurifyingSecondCardView_Previews: PreviewProvider {

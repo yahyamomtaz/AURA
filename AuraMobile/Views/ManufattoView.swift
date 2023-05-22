@@ -9,8 +9,6 @@ import SwiftUI
 
 struct ManufattoView: View {
     var body: some View {
-        ZStack {
-            AppColors.main.ignoresSafeArea()
             VStack(alignment: .leading) {
                 HStack {
                     VStack(alignment: .leading) {
@@ -43,7 +41,7 @@ struct ManufattoView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 240)
             }
-        }
+            .background(AppColors.main)
     }
     
     struct ManufattoView_Previews: PreviewProvider {
