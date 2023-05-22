@@ -9,8 +9,6 @@ import SwiftUI
 
 struct PurifyingMainCardView: View {
     var body: some View {
-        ZStack{
-            AppColors.lightgreen.ignoresSafeArea()
             HStack{
                 VStack{
                     Image("timo")
@@ -22,36 +20,38 @@ struct PurifyingMainCardView: View {
                         Text("Outdoor")
                     }
                     Divider()
-                        .frame(width: 150,height: 1.5)
+                        .frame(width: 150,height: 1)
                         .overlay(AppColors.darkblue)
                     HStack{
                         Image(systemName: "globe")
                         Text("Indoor")
                     }
                     Divider()
-                        .frame(width: 150,height: 1.5)
+                        .frame(width: 150,height: 1)
                         .overlay(AppColors.darkblue)
                     HStack{
                         Image(systemName: "globe")
                         Text("Aromatic")
                     }
                     Divider()
-                        .frame(width: 150,height: 1.5)
+                        .frame(width: 150,height: 1)
                         .overlay(AppColors.darkblue)
                     HStack{
                         Image(systemName: "globe")
                         Text("Edibile")
                     }
                 }
+                .padding(.vertical)
                 Divider()
-                    .frame(width: 1.5,height: 200)
+                    .frame(width: 1,height: 200)
                     .overlay(AppColors.darkblue)
                 VStack{
                     Text("92%")
                     Text("Lorem Ipsum")
                 }
+                .padding()
             }
-        }
+            .background(AppColors.lightgreen)
     }
 }
 

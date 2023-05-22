@@ -9,16 +9,17 @@ import SwiftUI
 
 struct PurifyingThirdCardView: View {
     var body: some View {
-        ZStack{
-            AppColors.main.ignoresSafeArea()
             VStack{
-                Text("AURActivity")
-                    .fontWeight(.bold)
-                Divider()
-                    .frame(height: 1.5)
-                    .background(AppColors.darkblue)
-                Text("Air Quality Based Activity")
-                    .padding()
+                VStack(alignment: .leading){
+                    Text("AURActivity")
+                        .fontWeight(.bold)
+                        .padding([.top,.horizontal])
+                    Divider()
+                        .frame(height: 1)
+                        .background(AppColors.darkblue)
+                    Text("Air Quality Based Activity")
+                        .padding([.top,.horizontal])
+                }
                 
                 HStack(alignment: .bottom){
                     VStack{
@@ -47,11 +48,11 @@ struct PurifyingThirdCardView: View {
                     }
                     .padding()
                 }
-                .font(.system(size: 10))
+                .font(.system(size: 8))
             }
+            .foregroundColor(AppColors.darkblue)
+            .background(AppColors.main)
         }
-        .foregroundColor(AppColors.darkblue)
-    }
 }
 
 struct PurifyingThirdCardView_Previews: PreviewProvider {

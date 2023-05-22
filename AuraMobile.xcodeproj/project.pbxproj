@@ -174,10 +174,10 @@
 				78AFF6CC2A0E75700067AF2C /* ButtonView.swift */,
 				783C47CE2A13C6CA00B9A7A7 /* MapView.swift */,
 				7802DC9F2A15118A0076238D /* PurifyingView.swift */,
-				786C17E72A16244800A65CAE /* PurifyingSecondCardView.swift */,
 				7802DCA12A151DCF0076238D /* PurifyingMainCardView.swift */,
-				786C17E52A161F6300A65CAE /* PurifyingButtonView.swift */,
+				786C17E72A16244800A65CAE /* PurifyingSecondCardView.swift */,
 				78E606872A1672BA0011C5D8 /* PurifyingThirdCardView.swift */,
+				786C17E52A161F6300A65CAE /* PurifyingButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

@@ -9,18 +9,17 @@ import SwiftUI
 
 struct PurifyingSecondCardView: View {
     var body: some View {
-            VStack{
-                
+            VStack(alignment: .leading){
+
                 VStack(alignment: .leading){
                     Text("Fitobanca AURA")
                         .fontWeight(.bold)
                     Text("Specie Vegetali Certificate")
                 }
-                .padding()
-                
+                .padding([.top,.horizontal])
                 
                 Divider()
-                    .frame(height: 1.5)
+                    .frame(height: 1)
                     .background(AppColors.darkblue)
                 
                 HStack{
